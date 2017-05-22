@@ -6,6 +6,10 @@
 		<form>
 			Username: &nbsp<input type="text" name="text"></br>
 			Password: &nbsp<input type="password" name="password"></br>
+			<input type="submit" name="submit" value="Submit">
+			<input type="submit" name="cancel" value="Cancel"></br>
+
+
 		
 		</form>
 
