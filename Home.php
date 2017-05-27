@@ -24,10 +24,11 @@ p.topic {
 			<td><a href="login_page.php">Login/Sign up</a></td>
 		
 			</tr>
-		</div>   
+		</div>  
+		
 		<form>
 	<///table>
-	<a href="https://www.google.com/search" ><p class="date"><input type="search" name="googlesearch">
+	<a href="https://www.google.com/search" ><p class="date"><input type="search" name="googlesearch" value="What are you looking for?">
   <input type="submit"></p></a>
 		<title> Online Food System</title> 
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -35,13 +36,7 @@ p.topic {
 		<link rel="stylesheet" type="text/css" href="stylesheets/framework_file.css">
 	</head>  
 	<body>
-	</form>
-		<div class="content">
-		<img src="Logo1.jpg" height="200" width="200" align="left">
-			<h1>HIMALAYAN CARAVAN</h1>
-
-		</div>
-		<?php
+	<?php
 		
 			
 			if (isset($_POST["submit"]))
@@ -53,6 +48,44 @@ p.topic {
 				echo ($_SERVER["PHP_SELF"]);
 			}
 		?>
+	<div class="content">
+		<img src="Logo1.jpg" height="200" width="200" align="left">
+			<h1>HIMALAYAN CARAVAN</h1>
+
+		</div>
+	<//image slider>
+		<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="mangoes.jpg" style="width:100%">
+    <div class="text">Mangoes</div>
+  </div> 
+   <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="potatoes.jpg" style="width:100%">
+    <div class="text">Potatoes</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="carrots.jpg" style="width:100%">
+    <div class="text">Carrots</div>
+  </div>
+
+  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+  		<//image slider>
+	</form>
+		
+		
 		
 		</body>
 </html>
