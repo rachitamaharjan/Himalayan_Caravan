@@ -1,7 +1,7 @@
 <html>
 	<body>
 		<form>
-			<table border=1>
+			<//table border=1>
 				<tr>
 					<td><a href="Home.php">Home</a></td>
 					<td><a href="About_us.php">About Us</a></td>
@@ -10,9 +10,9 @@
 					<td><a href="Contact_us.php">Contact Us</a></td>
 					<td><a href="login_page.php">Login/Sign up</a></td>
 				</tr>
-			</table>
+			<//table>
 		</form>
-		<img src="logo.jpg" height="200" width="100" align="left">
+		<img src="Logo1.jpg" height="200" width="200" align="left">
 		<H1>HIMALAYAN CARAVAN</H1></br>
 		Please log in to continue:</br>
 		
