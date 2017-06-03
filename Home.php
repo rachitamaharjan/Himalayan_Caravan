@@ -53,14 +53,64 @@ p.topic {
 			<h1>HIMALAYAN CARAVAN</h1>
 
 		</div>
-	<//image slider>
+		<div id ="container">
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+			    <div class="numbertext">1 / 3</div>
+			    <img src="mangoes.jpg" style="width:100%;height:  450px;">
+			    <div class="text">Mangoes</div>
+		  	</div>
+
+			<div class="mySlides fade">
+			   	<div class="numbertext">2 / 3</div>
+			   	<img src="potatoes.jpg" style="width:100%;height:  450px;">
+			   	<div class="text">Potatoes</div>
+			</div>
+
+			<div class="mySlides fade">
+			   	<div class="numbertext">3 / 3</div>
+			   	<img src="carrots.jpg" style="width:100%;height:  450px;">
+			   	<div class="text">Carrots</div>
+			</div>
+
+		</div>
+		<br>
+		<//image slider code>
+		<div style="text-align:center">
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		</div>
+		<script>
+			var slideIndex = 0;
+			showSlides();
+			function showSlides() {
+			    var i;
+			    var slides = document.getElementsByClassName("mySlides");
+			    var dots = document.getElementsByClassName("dot");
+			    for (i = 0; i < slides.length; i++) 
+			    {
+			       slides[i].style.display = "none";  
+			    }
+			    slideIndex++;
+			    if (slideIndex> slides.length) {slideIndex = 1}    
+			    for (i = 0; i < dots.length; i++) 
+			    {
+			        dots[i].className = dots[i].className.replace(" active", "");
+			    }
+			    slides[slideIndex-1].style.display = "block";  
+			    dots[slideIndex-1].className += " active";
+			    setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+		</script><//image slider>
+	<!-- <//image slider>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
 <!--<h2 class="w3-center">Manual Slideshow</h2>!-->
 
-<div class="w3-content w3-display-container">
+<!--<div class="w3-content w3-display-container">
   <img class="mySlides" src="mangoes.jpg" style="width:100%">
   <img class="mySlides" src="potatoes.jpg" style="width:100%">
   <img class="mySlides" src="carrots.jpg" style="width:100%">
@@ -70,7 +120,8 @@ p.topic {
   <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
 
-<script>
+
+ <script>
 var slideIndex = 1;
 showDivs(slideIndex);
 
@@ -88,7 +139,7 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
-</script>
+</script>!-->
 		<!-- <div class="slideshow-container">
   <div class="mySlides fade">
     <div class="numbertext">1 / 3</div>
