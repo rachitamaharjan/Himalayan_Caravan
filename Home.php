@@ -5,6 +5,7 @@
 	<style>
 
 
+
 p.date {
     text-align: right;
 }
@@ -13,10 +14,19 @@ p.topic {
     text-align: left;
 }
 </style>
+<//heading part neekita>
+<meta charset="UTF-8">
+	<title>HIMALAYAN CARAVAN</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ceviche+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css" \>
+<//heading part neekita>
+
 	<//table border=1>
       <tr>
-		<div class="topnav" id="myTopnav">
-			<td><a href="home">Home</a></td>
+		<div class="topnav" id="myTopnav"><span class="dot"></span>
+			<td><a href="home.php">Home</a></td>
 			<td><a href="About_us.php">About us</a></td>
 			<td><a href="Shop.php">Shop</a></td>
 			<td><a href="Support Us.php">Support us</a></td>
@@ -36,6 +46,36 @@ p.topic {
 		<link rel="stylesheet" type="text/css" href="framework.css">
 	</head>  
 	<body>
+	<//menu bar-neekita starts>
+	<div id = "header">
+		<div class="header-top">
+			<div class="logo">
+				<a href="index.html" title="Logo">
+					<img src="Logo1.jpg" height="200" width="200" align="left">
+					<//img src="../images/logo.jpg" alt="Logo" height ="75px" width= "200px" \> 
+				</a>
+			</div>
+			<div class="row">
+				<div class ="row1">
+					<h1> HIMALAYAN CARAVAN </h1> 
+				</div>
+				<div class = "row2">
+
+				</div>
+			</div>
+		</div>
+		<div class="navigation">
+			<ul id="menuBar">
+	            <li><a href="home.php" title="home">HOME</a> </li>
+	            <li><a href="#" title="catagories">CATAGORIES</a></li>
+	            <li><a href="#" title="products">PRODUCTS</a> </li>
+	            <li><a href="#" title="about">ABOUT US</a> </li>
+	            <li><a href="#" title="contact">CONTACT</a> </li>
+	            <li><a href="login_page.php" title="log in">LOG IN/ SIGN UP</a> </li>
+        	</ul>
+		</div>
+	</div>
+	<//menu bar-neekita>
 	<?php
 		
 			
@@ -49,34 +89,53 @@ p.topic {
 			}
 		?>
 	<div class="content">
-		<img src="Logo1.jpg" height="200" width="200" align="left">
-			<h1>HIMALAYAN CARAVAN</h1>
+		
 
 		</div>
 		<div id ="container">
 		<div class="slideshow-container">
 			<div class="mySlides fade">
-			    <div class="numbertext">1 / 3</div>
+			    <div class="numbertext">1 / 6</div>
 			    <img src="mangoes.jpg" style="width:100%;height:  450px;">
 			    <div class="text">Mangoes</div>
 		  	</div>
 
 			<div class="mySlides fade">
-			   	<div class="numbertext">2 / 3</div>
+			   	<div class="numbertext">2 / 6</div>
 			   	<img src="potatoes.jpg" style="width:100%;height:  450px;">
 			   	<div class="text">Potatoes</div>
 			</div>
 
 			<div class="mySlides fade">
-			   	<div class="numbertext">3 / 3</div>
+			   	<div class="numbertext">3 / 6</div>
 			   	<img src="carrots.jpg" style="width:100%;height:  450px;">
 			   	<div class="text">Carrots</div>
+
+			<!--<div class="mySlides fade">
+			   	<div class="numbertext">4 / 6</div>
+			    <img src="1.jpg" style="width:100%;height:  450px;">
+			    <div class="text"> </div>
+		  	</div>
+
+			<div class="mySlides fade">
+			   	<div class="numbertext">5 / 6</div>
+			   	<img src="2.jpg" style="width:100%;height:  450px;">
+			   	<div class="text"> </div>
 			</div>
+
+			<div class="mySlides fade">
+			   	<div class="numbertext">6 / 6</div>
+			   	<img src="3.jpg" style="width:100%;height:  450px;">
+			   	<div class="text"> </div>
+			</div>!-->
 
 		</div>
 		<br>
 		<//image slider code>
 		<div style="text-align:center">
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
+		  <span class="dot"></span> 
 		  <span class="dot"></span> 
 		  <span class="dot"></span> 
 		  <span class="dot"></span> 
