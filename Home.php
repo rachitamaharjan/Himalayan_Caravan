@@ -66,7 +66,7 @@ p.topic {
 		</div>
 		<div class="navigation">
 			<ul id="menuBar">
-	            <li><a href="home.php" title="home">HOME</a> </li>
+	            <li><a href="home.php" >HOME</a> </li>
 	            <li><a href="#" title="catagories">CATAGORIES</a></li>
 	            <li><a href="#" title="products">PRODUCTS</a> </li>
 	            <li><a href="#" title="about">ABOUT US</a> </li>
