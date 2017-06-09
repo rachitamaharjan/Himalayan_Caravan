@@ -315,9 +315,61 @@ function showDivs(n) {
                 </div>
                 </p>        
 			</div> 
-			</p>                  
+			</p> 
+
 
   	<//recent news>
+  	<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+			    var i;
+			    var slides = document.getElementsByClassName("mySlides");
+			    var dots = document.getElementsByClassName("dot");
+			    for (i = 0; i < slides.length; i++) 
+			    {
+			       slides[i].style.display = "none";  
+			    }
+			    slideIndex++;
+			    if (slideIndex> slides.length) {slideIndex = 1}    
+			    for (i = 0; i < dots.length; i++) 
+			    {
+			        dots[i].className = dots[i].className.replace(" active", "");
+			    }
+			    slides[slideIndex-1].style.display = "block";  
+			    dots[slideIndex-1].className += " active";
+			    setTimeout(showSlides, 2000); // Change image every 2 seconds
+			}
+		</script>
+		<div id="para">
+			<div class="veg">
+				<img src="images.jpg" style="height:200px; width:200px; padding-top:20px; " \><br>
+				<b>POTATOS</b> <br>
+				Price : Rs.50 per kg <br>
+				Quality : fresh <br>
+			</div>
+			<div class="fruits">
+				<div class="second">
+					<img src="images (1).jpg" style="height:200px;width:200px;padding-top:20px; " \><br>
+					<b>MANGO</b> <br>
+					Price : Rs.100 per kg <br>
+					Quality : fresh <br>
+				</div>
+				<div class="third">
+					<img src="download (1).jpg" style="height:200px;width:200px; padding-top:20px; " \>
+					<br>
+					<b>ORANGE</b> <br>
+					Price : Rs.80 per kg <br>
+					Quality : fresh <br>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+ 	     	<b>&copy;Copyright -Himalayan Digital Corp. </b>
+ 	        <img src="twitter.jpg" class="img1" \>
+            <img src="fb.png" class="img1" \>   
   	
 >	</form>
 		
