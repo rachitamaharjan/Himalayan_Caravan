@@ -13,6 +13,9 @@ p.date {
 p.topic {
     text-align: left;
 }
+p.footer {
+    text-align: right;
+}
 </style>
 <//heading part neekita>
 <meta charset="UTF-8">
@@ -38,8 +41,31 @@ p.topic {
 		
 		<form>
 	<///table>
-	<a href="https://www.google.com/search" ><p class="date"><input type="search" name="googlesearch" value="What are you looking for?">
-  <input type="submit"></p></a>
+	<//search box starts>
+  	<div class="form-search"  >
+    <!-- <label for="search"></label>-->
+    <div class="box-input" id="search">
+        <p class="date"><input type="text" name="search" value="" placeholder="What product you are looking for TODAY ?? " class="input-text" />
+             
+               <select class="ddslick"  id="cat" name="cat">
+                 <option value="">All Categories</option>
+                 
+                   <option value="http://metrotarkari.com/vegetables"> Vegetables</option>
+                                 <option value="http://metrotarkari.com/vegetables/fresh-vegetable">-Fresh Vegetable (36)</option>
+                                 <option value="http://metrotarkari.com/vegetables/leafy-vegetable">-Leafy Vegetable (17)</option>
+                                 <option value="http://metrotarkari.com/vegetables/herbs">-Herbs &amp; Salad (12)</option>
+                                 
+              </select>
+            
+     
+     <button class="button" type="button" data-original-title="Search" rel="tooltip"><span><span><i class="fa fa-search"></i></span></span></button></p>
+    </div>
+   
+</div>
+  	
+					
+	<!--<a href="https://www.google.com/search" ><p class="date"><input type="search" name="googlesearch" value="What are you looking for?">
+  <input type="submit"></p></a>!-->
 		<title> Online Food System</title> 
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:100" type="text/css" rel="stylesheet">
@@ -88,7 +114,7 @@ p.topic {
 				//echo ($_SERVER["PHP_SELF"]);
 			}
 		?>
-	<div class="content">
+	<!--<div class="content">
 		
 
 		</div>
@@ -109,7 +135,8 @@ p.topic {
 			<div class="mySlides fade">
 			   	<div class="numbertext">3 / 6</div>
 			   	<img src="carrots.jpg" style="width:100%;height:  450px;">
-			   	<div class="text">Carrots</div>
+			   	<div class="text">Carrots</div>!-->
+
 
 			<!--<div class="mySlides fade">
 			   	<div class="numbertext">4 / 6</div>
@@ -131,6 +158,7 @@ p.topic {
 
 		</div>
 		<br>
+		<!--
 		<//image slider code>
 		<div style="text-align:center">
 		  <span class="dot"></span> 
@@ -162,7 +190,7 @@ p.topic {
 			    setTimeout(showSlides, 2000); // Change image every 2 seconds
 			}
 		</script><//image slider>
-	<!-- <//image slider>
+	<!-- <//image slider> !-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
@@ -228,6 +256,69 @@ function showDivs(n) {
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div> !-->
   		<//image slider
+
+  	<//recent news starts>	
+
+  	
+            <p align="right"><div class="main-footer"> 
+			  	<div class="col-12 col-lg-4">
+			  				<p align="right">
+
+			                  <div class="blog-aside"> 
+			                    <div class="row">
+			                      <div class="col-12 col-sm-6 col-lg-12">
+			                        <div class="blog-aside-item blog-aside-item-categories">
+			                          <h3>Blog <b>Categories </b></h3>
+			                          <ul>
+			                            <li><a href="#"><span>Safari </span><span>12</span></a></li>
+			                            <li><a href="#"><span>Rafting </span><span>110</span></a></li>
+			                            <li><a href="#"><span>Cycle tourism  </span><span>54</span></a></li>
+			                            <li><a href="#"><span>Hicking & camping  </span><span>32</span></a></li>
+			                            <li><a href="#"><span>Saling </span><span>44</span></a></li>
+			                            <li><a href="#"><span>Adventure </span><span>67</span></a></li>
+			                          </ul>
+			                        </div>
+			                      </div>
+			                    </div>
+			                   </div> 
+			                 </p>  
+			    </div>
+			    <p align="right"><div class="col-12 col-sm-6 col-lg-12">
+                        <div class="blog-aside-item blog-aside-item-recent">
+                          <h3>Popular <b>Posts</b></h3>
+                          <div class="blog-aside-item-recent-item"> 
+                            <div class="blog-aside-item-recent-item-image"><img src="images/blog-list-1.jpg" alt=""></div><a class="blog-aside-item-recent-item-content" href="blog-single.html"> 
+                              <h5>Lorem Ipsum dolor sit ammet</h5>
+                              <div class="blog-aside-item-recent-item-info"><span> <i class="fa fa-comment"> </i>276 </span><span> <i class="fa fa-eye"> </i>3 671</span></div></a>
+                          </div>
+                          <div class="blog-aside-item-recent-item"> 
+                            <div class="blog-aside-item-recent-item-image"><img src="images/blog-list-2.jpg" alt=""></div><a class="blog-aside-item-recent-item-content" href="blog-single.html"> 
+                              <h5>Lorem Ipsum dolor sit ammet</h5>
+                              <div class="blog-aside-item-recent-item-info"><span> <i class="fa fa-comment"> </i>276 </span><span> <i class="fa fa-eye"> </i>3 671</span></div></a>
+                          </div>
+                          <div class="blog-aside-item-recent-item"> 
+                            <div class="blog-aside-item-recent-item-image"><img src="images/blog-list-3.jpg" alt=""></div><a class="blog-aside-item-recent-item-content" href="blog-single.html"> 
+                              <h5>Lorem Ipsum dolor sit ammet</h5>
+                              <div class="blog-aside-item-recent-item-info"><span> <i class="fa fa-comment"> </i>276 </span><span> <i class="fa fa-eye"> </i>3 671</span></div></a>
+                          </div>
+                          <div class="blog-aside-item-recent-item"> 
+                            <div class="blog-aside-item-recent-item-image"><img src="images/blog-list-4.jpg" alt=""></div><a class="blog-aside-item-recent-item-content" href="blog-single.html"> 
+                              <h5>Lorem Ipsum dolor sit ammet</h5>
+                              <div class="blog-aside-item-recent-item-info"><span> <i class="fa fa-comment"> </i>276 </span><span> <i class="fa fa-eye"> </i>3 671</span></div></a>
+                          </div>
+                          <div class="blog-aside-item-recent-item"> 
+                            <div class="blog-aside-item-recent-item-image"><img src="images/blog-list-5.jpg" alt=""></div><a class="blog-aside-item-recent-item-content" href="blog-single.html"> 
+                              <h5>Lorem Ipsum dolor sit ammet</h5>
+                              <div class="blog-aside-item-recent-item-info"><span> <i class="fa fa-comment"> </i>276 </span><span> <i class="fa fa-eye"> </i>3 671</span></div></a>
+                          </div>
+                        </div>
+                </div>
+                </p>        
+			</div> 
+			</p>                  
+
+  	<//recent news>
+  	
 >	</form>
 		
 		
