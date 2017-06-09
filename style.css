@@ -175,3 +175,54 @@ ul#menuBar li a:hover
 	from {opacity: .4} 
 	to {opacity: 1}
 }
+#para
+{
+	
+	width: 1285px;
+	height: 300px;
+	padding-top: 10px;
+}
+.veg 
+{
+	float: left;
+	width: 429px ;
+	padding-left: 20px;
+}
+.fruits
+{
+	width: 856px;
+	float: right;
+}
+.second
+{
+	float: left;
+	width: 428px ;
+	
+}
+.third
+{ 
+	float: right;
+	width: 428px ;
+}
+
+/*footer */
+
+#footer
+{
+	font-family:'Calibri Light';
+    font-size: 15px ; 
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+    background: #021e4c;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+img.img1
+{
+ height: 20px;
+ width: 30px;
+ float: right;
+ padding-right: 5px;
+}
+/*footer close*/
