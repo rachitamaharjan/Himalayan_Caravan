@@ -1,15 +1,40 @@
 <html>
-	<body>
-		<form>
-			<//table border=1>
-				<tr>
-					<td><a href="Home.php">Home</a></td>
-					<td><a href="About_us.php">About Us</a></td>
-					<td><a href="Shop.php">Shop</a></td>
-					<td><a href="Support_us.php">Support Us</a></td>
-					<td><a href="Contact_us.php">Contact Us</a></td>
-					<td><a href="login_page.php">Login/Sign up</a></td>
-				</tr>
-			<//table>
+<head>
+	<meta charset="UTF-8">
+	<title>HIMALAYAN CARAVAN</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ceviche+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css" \>
+</head>
+<body>
+	<div id = "header">
+		<div class="header-top">
+			<div class="logo">
+				<a href="index.html" title="Logo">
+					<img src="logo.jpg" alt="Logo" height ="75px" width= "200px" \> 
+				</a>
+			</div>
+			<div class="row">
+				<div class ="row1">
+					<h1> HIMALAYAN CARAVAN </h1> 
+				</div>
+				
+			</div>
+		</div>
+		<div class="navigation">
+			<ul id="menuBar">
+	            <li><a href="home.php" title="home">HOME</a> </li>
+	            <li><a href="categories.php" title="catagories">CATAGORIES</a></li>
+	            <li><a href="Products.php" title="products">PRODUCTS</a> </li>
+	            <li><a href="About_us.php" title="about">ABOUT US</a> </li>
+	            <li><a href="Contact_us.php" title="contact">CONTACT US</a> </li>
+        	</ul>
+		</div>
+	</div> <!-- header close-->
+	
+		
+
+
 	</body>
 </html>
