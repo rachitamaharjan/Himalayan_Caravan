@@ -158,7 +158,7 @@ p.footer {
 
 		</div>
 		<br>
-		<!--
+		<!-->
 		<//image slider code>
 		<div style="text-align:center">
 		  <span class="dot"></span> 
@@ -189,8 +189,8 @@ p.footer {
 			    dots[slideIndex-1].className += " active";
 			    setTimeout(showSlides, 2000); // Change image every 2 seconds
 			}
-		</script><//image slider>
-	<!-- <//image slider> !-->
+		</script><//image slider>!-->
+	<//image slider> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
@@ -254,7 +254,7 @@ function showDivs(n) {
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
-</div> !-->
+</div> 
   		<//image slider
 
   	<//recent news starts>	
