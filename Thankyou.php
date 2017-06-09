@@ -38,12 +38,10 @@
 			
 			if (isset($_POST["submit"]))
 			{
-			echo $_POST["Thank you for your message, We will reach out to you as soon as possible."];
-			file($_FILES["imageUpload"]["tmp_name"], $destination);
+			echo "Thank you &nbsp".$_POST["name"]. "&nbsp for your message, We will reach out to you as soon as possible.";
 			}
 		?>		
 
-	Thank you for your message, We will reach out to you as soon as possible.
 	
 		
 

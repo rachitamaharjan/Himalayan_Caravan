@@ -32,7 +32,11 @@
         	</ul>
 		</div>
 	</div> <!-- header close-->
-	
+	</br> &nbsp &nbsp &nbsp Himalayan Caravan provides a highly managed hassle-free online market where you can get fresh items be it vegetables, fruits, meat products, dairy products, sprouts or any other food you name within your clicks. It is an online portal where you can get an arranged display of vegetables, meat products, fruits and other food stuffs. Our vision is to start something worthy for both common people as well as business profit. Himalayan Caravan’s basic mission and vision is to grow the vegetable market in one hand and simplify the life of people by providing products at home without extra cost in other hand. And principally the foremost mission is to avoid the gap between the people and the products they need by and large i.e. vegetable and groceries. </br></br>
+	<h3>Free Delivery</h3></br>
+		We put value in the priority and quality is our motto. Please take our words, " We deliver products without any delivery charge ". </br></br>
+	<h3>Return Policy</h3></br>
+		If you are not satisfied with our products you can ask for return with our delivery man, We will work on your request and try to determine the best way out</br></br>
 		
 
 

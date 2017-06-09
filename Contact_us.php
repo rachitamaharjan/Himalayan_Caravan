@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css" \>
 </head>
 <body>
+	<center>
 	<div id = "header">
 		<div class="header-top">
 			<div class="logo">
@@ -33,16 +34,27 @@
 		</div>
 	</div> <!-- header close-->
 	<form action ="Thankyou.php" method="post" enctype="multipart/form-data">
+		<h3>Our Location:</h3></br>
+		Kamal Pokhari, Kathmandu,Nepal</br>
+		Tel. 014428756 (Sunday-Friday 9am - 6pm)</br>
+		<b>Customer Support</b> : 9803847262 (24 Hours)</br></br>
 		<h3>Email Address:</h3> Himalayancaravan@gmail.com</br></br>
-		<h3>Facebook:</h3> <a href="www.facebook.com/himalayanCaravan">www.facebook.com/himalayanCaravan</a></br>
+		<h3>Facebook:</h3> <a href="https://www.facebook.com/himalayanCaravan">www.facebook.com/himalayanCaravan</a></br>
 		</br>
 		 OR</br></br>
 		 <h3>Leave a Message:</h3></br>
-		 <textarea name="message" rows="10" cols="30">
+		 <table border=2 width="500">
+		 <tr><td></br>&nbsp &nbsp  &nbsp Your Name: &nbsp &nbsp  &nbsp <input type="text" name="name"></br></br>
+		 &nbsp &nbsp  &nbspYourEmail Address: &nbsp <input type="text" name="namevalue"></br></br>
+
+		 &nbsp &nbsp  &nbsp <textarea name="message" rows="10" cols="30">
 		</textarea></br></br>
-		<input type="Submit" value="Submit">
+		&nbsp &nbsp  &nbsp <input type="Submit" name="submit" value="Submit"></br></br></td></br></br>
+		</tr>
+		</table>
 
 	</form>
+	</center>
 
 		
 

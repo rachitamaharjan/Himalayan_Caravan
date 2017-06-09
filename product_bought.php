@@ -31,12 +31,16 @@
 	            <li><a href="Contact_us.php" title="contact">CONTACT US</a> </li>
         	</ul>
 		</div>
-	</div> <!-- header close--></br></br>
-	<center><h3>Choose a Category:</h3></br>
-	&nbsp &nbsp <a href="fresh.php">Fresh Vegetables</a></br></br>
-	&nbsp &nbsp <a href="leafy.php">Leafy Greens</a></br></br>
-	&nbsp &nbsp <a href="salad.php">Herbs and Salad</a></br></br>
-	</center>
+	</div> <!-- header close-->
+
+	<!--<?php
+			if (isset($_POST["add"]))
+			{
+			echo $_POST["Thank you for your purchase, We will reach out to you as soon as possible."];
+			}
+		?>	!-->	
+		Thank you for your purchase, We will reach out to you as soon as possible.
+
 
 	
 		
