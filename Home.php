@@ -85,7 +85,7 @@ p.topic {
 			}
 			else
 			{
-				echo ($_SERVER["PHP_SELF"]);
+				//echo ($_SERVER["PHP_SELF"]);
 			}
 		?>
 	<div class="content">
