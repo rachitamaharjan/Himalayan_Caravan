@@ -36,10 +36,10 @@
                <select class="ddslick"  id="cat" name="cat">
                  <option value="">All Categories</option>
                  
-                   <option value="http://metrotarkari.com/vegetables"> Vegetables</option>
-                                 <option value="http://metrotarkari.com/vegetables/fresh-vegetable">-Fresh Vegetable (36)</option>
-                                 <option value="http://metrotarkari.com/vegetables/leafy-vegetable">-Leafy Vegetable (17)</option>
-                                 <option value="http://metrotarkari.com/vegetables/herbs">-Herbs &amp; Salad (12)</option>
+                   <option value="products.php"> Vegetables</option>
+                                 <option value="products.php">-Fresh Vegetable (36)</option>
+                                 <option value="products.php">-Leafy Vegetable (17)</option>
+                                 <option value="products.php">-Herbs &amp; Salad (12)</option>
                                  
               </select>
             
@@ -56,7 +56,7 @@
 		<div class="navigation">
 			<ul id="menuBar">
 	            <li><a href="home.php" title="home">HOME</a> </li>
-	            <li><a href="categories.php" title="catagories">CATAGORIES</a></li>
+	            <li><a href="categories.php" title="categories">CATEGORIES</a></li>
 	            <li><a href="Products.php" title="products">PRODUCTS</a> </li>
 	            <li><a href="About_us.php" title="about">ABOUT US</a> </li>
 	            <li><a href="Contact_us.php" title="contact">CONTACT US</a> </li>

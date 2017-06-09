@@ -1,6 +1,4 @@
 <html>
-	<body>
-		<html>
 <head>
 	<meta charset="UTF-8">
 	<title>HIMALAYAN CARAVAN</title>
@@ -34,21 +32,20 @@
         	</ul>
 		</div>
 	</div> <!-- header close-->
-	
-	</br>
-	</br>Please enter your username and password to continue:
-	</br>
-	</br>		
-		<form action ="Home.php" method="post" enctype="multipart/form-data">
-			Username: &nbsp<input type="text" name="namevalue"></br></br>
-			Password: &nbsp<input type="password" name="password"></br></br>
-			&nbsp &nbsp<input type="submit" name="submit" value="Submit"> &nbsp &nbsp &nbsp
-			<input type="submit" name="cancel" value="Cancel"></br>
 
-
-
+	<?php
 		
-		</form>
+			
+			if (isset($_POST["submit"]))
+			{
+			echo $_POST["Thank you for your message, We will reach out to you as soon as possible."];
+			file($_FILES["imageUpload"]["tmp_name"], $destination);
+			}
+		?>		
+
+	Thank you for your message, We will reach out to you as soon as possible.
+	
+		
 
 
 	</body>

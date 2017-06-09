@@ -25,13 +25,14 @@
 		<div class="navigation">
 			<ul id="menuBar">
 	            <li><a href="home.php" title="home">HOME</a> </li>
-	            <li><a href="categories.php" title="catagories">CATAGORIES</a></li>
+	            <li><a href="categories.php" title="categories">CATEGORIES</a></li>
 	            <li><a href="Products.php" title="products">PRODUCTS</a> </li>
 	            <li><a href="About_us.php" title="about">ABOUT US</a> </li>
 	            <li><a href="Contact_us.php" title="contact">CONTACT US</a> </li>
         	</ul>
 		</div>
 	</div> <!-- header close-->
+
 	
 		
 
