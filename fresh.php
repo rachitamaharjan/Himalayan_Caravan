@@ -1,5 +1,6 @@
 <html>
 	<body>
+	<form action ="product_bought.php" method="post" enctype="multipart/form-data">
 	<?php 
 		include 'navigation_bar.php';
 
@@ -30,5 +31,6 @@
 	?>
 		</br></br>
 		<a href="categories.php"><input type="submit" value="Go Back"> </a>
+		</form>
 	</body>
 </html>

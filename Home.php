@@ -22,8 +22,8 @@
 					<h1> HIMALAYAN CARAVAN </h1> 
 				</div>
 				<div class = "row2">
-					<a href="login_page.php">SignUp </a>
-           			<a href="login_page.php">SignIn </a>
+					<a href="login_page.php">Sign Up / </a>
+           			<a href="login_page.php">Log In </a>
 				</div>
 			</div>
 		</div>
@@ -81,19 +81,19 @@
 			<div class="mySlides fade">
 			    <div class="numbertext">1 / 3</div>
 			    <img src="1.jpg" style="width:100%;height:  450px;">
-			    <div class="text">Caption one</div>
+			    <div class="text"></div>
 		  	</div>
 
 			<div class="mySlides fade">
 			   	<div class="numbertext">2 / 3</div>
-			   	<img src="2.jpg" style="width:100%;height:  450px;">
-			   	<div class="text">Caption Two</div>
+			   	<img src="chinese.jpg" style="width:100%;height:  450px;">
+			   	<div class="text"></div>
 			</div>
 
 			<div class="mySlides fade">
 			   	<div class="numbertext">3 / 3</div>
-			   	<img src="3.jpg" style="width:100%;height:  450px;">
-			   	<div class="text">Caption Three</div>
+			   	<img src="fruits.jpg" style="width:100%;height:  500px;">
+			   	<div class="text"></div>
 			</div>
 
 		</div>
@@ -168,21 +168,21 @@
 		<div id="para">
 			<div class="veg">
 				<img src="images.jpg" style="height:200px; width:200px; padding-top:20px; " \><br>
-				<b>POTATOS</b> <br>
+				<b>POTATOES</b> <br>
 				Price : Rs.50 per kg <br>
 				Quality : fresh <br>
 			</div>
 			<div class="fruits">
 				<div class="second">
 					<img src="images (1).jpg" style="height:200px;width:200px;padding-top:20px; " \><br>
-					<b>MANGO</b> <br>
+					<b>MANGOES</b> <br>
 					Price : Rs.100 per kg <br>
 					Quality : fresh <br>
 				</div>
 				<div class="third">
 					<img src="download (1).jpg" style="height:200px;width:200px; padding-top:20px; " \>
 					<br>
-					<b>ORANGE</b> <br>
+					<b>ORANGES</b> <br>
 					Price : Rs.80 per kg <br>
 					Quality : fresh <br>
 				</div>
@@ -191,8 +191,8 @@
 	</div>
 	<div id="footer">
  	     	<b>&copy;Copyright -Himalayan Digital Corp. </b>
- 	        <img src="twitter.jpg" class="img1" \>
-            <img src="fb.png" class="img1" \>   
+ 	        <a href="#"><img src="twitter.jpg" class="img1" \></a>
+            <a href="https://facebook.com/himalayanCaravan"><img src="fb.png" class="img1" \></a>
  	</div>
 
 
