@@ -29,7 +29,7 @@
 		</div>
 		<//search box starts>
   	<div class="form-search"  >
-    <!-- <label for="search"></label>-->
+    
     <div class="box-input" id="search">
         <p align="right"><input type="text" name="search" value="" placeholder="What product you are looking for TODAY ?? " class="input-text" />
              

@@ -5,8 +5,7 @@
                                                         <img src="Cauliflower.jpg" alt="Cauliflower 250gm"> 
 						    </a>
                                                 						    <ul class="add-to-links">
-							<!--<li><a class="link-wishlist" onclick="wishlist.add('870');" data-original-title="Wishlist" >Wishlist</a></li>-->
-							<!--<li><span class="separator">|</span> <a class="link-compare"  onclick="compare.add('870');" data-original-title="Compare" >Compare</a></li>-->
+							
 						    </ul>
 						</div>
 						<div class="product-shop">
